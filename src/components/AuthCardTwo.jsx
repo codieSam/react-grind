@@ -33,7 +33,8 @@ const CardBlock = ({ city, isActive, onShow }) => {
           onClick={onShow}
           className="cursor-pointer my-2 border rounded-md px-2 text-center"
         >
-          Show - {isActive ? "Active" : "In Active"}
+          Show 
+          {/* - {isActive ? "Active" : "In Active"} */}
         </button>
       )}
     </div>
